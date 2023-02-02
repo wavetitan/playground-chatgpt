@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "playground-chatgpt"
+version = "0.1.0"
+description = ""
+authors = ["wavetitan <wavetitango@gmail.com>"]
+readme = "README.md"
+packages = [{include = "playground_chatgpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+revchatgpt = "^1.0.11"
+chatgpt = "^2.2212.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
